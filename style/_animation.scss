@@ -5,36 +5,30 @@
     }
 
     100% {
-        left: calc(100% - 200px);
+        left: calc(100vw - 200px);
     }
 }
 
 @keyframes wheel-moveL {
     
-    0% {   
-        
-        transform: rotate(0deg);
-        
+    0% {           
+        transform: rotate(0deg);        
     }
 
     100% {     
-        left: calc(100% - 195px);   
-        
+        left: calc(100vw - 180px);          
         transform: rotate(360deg);
     }
 }
 
-@keyframes wheel-moveR {
-    
-    0% {   
-        
-        transform: rotate(0deg);
-        
+@keyframes wheel-moveR {   
+
+    0% {      
+        transform: rotate(0deg);        
     }
 
     100% {     
-        left: calc(100% - 68px);   
-        
+        left: calc(100vw - 53px);           
         transform: rotate(360deg);
     }
 }

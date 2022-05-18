@@ -1,19 +1,8 @@
-.auto {
-    display:block;
-    overflow: hidden;    
-    width: 1200px;
-    
-    
-    
-}
-
 .auto-car {
     position: relative;    
     top:0;
     left: 0;
     max-width: 200px;
     max-height: 200px;
-
     animation: auto-move linear 3s infinite alternate;
-
 }
