@@ -1,0 +1,10 @@
+.wheel-right {
+    position: absolute;    
+    top:60px;
+    left: 147px;
+    max-width: 35px;
+    max-height: 35px;
+    border-radius: 50%;    
+    
+    animation: wheel-moveR linear 3s infinite alternate;
+}

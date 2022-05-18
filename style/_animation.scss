@@ -1,0 +1,41 @@
+@keyframes auto-move {
+    0% {
+        left: 0;
+        
+    }
+
+    100% {
+        left: calc(100% - 200px);
+    }
+}
+
+@keyframes wheel-moveL {
+    
+    0% {   
+        
+        transform: rotate(0deg);
+        
+    }
+
+    100% {     
+        left: calc(100% - 195px);   
+        
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes wheel-moveR {
+    
+    0% {   
+        
+        transform: rotate(0deg);
+        
+    }
+
+    100% {     
+        left: calc(100% - 68px);   
+        
+        transform: rotate(360deg);
+    }
+}
+
