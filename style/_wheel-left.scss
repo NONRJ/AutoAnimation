@@ -1,9 +1,13 @@
-.wheel-left {
-    position: absolute;    
-    top:60px;
-    left: 20px;
-    max-width: 35px;
-    max-height: 35px;
-    border-radius: 50%;    
+.car__wheel-left {
     animation: wheel-moveL linear 3s infinite alternate;
+    position: absolute;
+    left:3vw;
+    top:6vw;
+    width: 5vw;
+}
+
+.wheel-left {
+    max-width: 100%;
+    display: block;
+    
 }

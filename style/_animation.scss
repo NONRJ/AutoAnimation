@@ -5,7 +5,7 @@
     }
 
     100% {
-        left: calc(100vw - 200px);
+        left: calc(100vw - 30vw);
     }
 }
 
@@ -16,7 +16,7 @@
     }
 
     100% {     
-        left: calc(100vw - 180px);          
+        left: 73vw;          
         transform: rotate(360deg);
     }
 }
@@ -28,7 +28,7 @@
     }
 
     100% {     
-        left: calc(100vw - 53px);           
+        left: 92vw;           
         transform: rotate(360deg);
     }
 }
